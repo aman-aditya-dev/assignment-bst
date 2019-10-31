@@ -2,7 +2,7 @@
   "name": "bluestack-assignment",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://aman-aditya.github.io/bst",
+  "homepage": "https://aman-aditya-dev.github.io/assignment-bst/",
   "dependencies": {
     "gh-pages": "^2.1.1",
     "node-sass": "^4.13.0",

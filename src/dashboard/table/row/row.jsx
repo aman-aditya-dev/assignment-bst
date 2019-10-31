@@ -67,7 +67,7 @@ class Row extends React.Component {
                     <a>CSV</a>
                     <img src={stats} width="26px"/>
                     <a>Report</a>
-                    <img src={calendar} width="26px"/>
+                    <img src={calendar} width="26px" onClick={this.handleCalendar}/>
                     <a onClick={this.handleCalendar}>Schedule Again</a>
                 {calendarShow && 
                     <DayPicker onDayClick={day => this.props.changedDate(day, index)} />}

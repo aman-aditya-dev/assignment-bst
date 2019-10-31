@@ -3,6 +3,7 @@
         color: #2b416c;
         font-size: 46px;
         margin: 33px auto;
+
     }
 
     .greyBg {
@@ -42,9 +43,72 @@
         border: 1px solid #f1f1f4;
     }
 
-    // img {
-    //     margin-top: 20px;
-    // }
-
     margin: auto 10%;
+}
+
+@media screen and (max-width: 600px) {
+    .popupDiv {
+        width: 70% !important;
+    }
+
+    .dashboardParent {
+        .DayPicker-Day {
+            padding: 0;
+        }
+
+        .DayPicker-wrapper {
+            font-size: 12px;
+        }
+
+        .title {
+            font-size: 25px;
+        }
+
+        margin: auto 4px;
+
+        .toggle {
+            ul li {
+                font-size: 12px;
+                margin-right: 0;
+                padding-right: 5px;
+            }
+
+            .selected {
+                padding-left: 0;
+            }
+        }
+
+        .whiteRow {
+            font-size: 8px;
+        }
+
+        .campaign .campaignDiv img {
+            width: 25px;
+        }
+
+        thead th {
+            padding-left: 0;
+            font-size: 10px;
+        }
+
+        .pricingDiv img {
+            height: 12px;
+            width: 14px;
+        }
+
+        .actions {
+            img {
+                height: 12px;
+                width: 12px;
+            }
+
+            a {
+                display: none;
+            }
+        }
+
+    }
+
+
+
 }

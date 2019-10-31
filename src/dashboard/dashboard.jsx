@@ -15,7 +15,6 @@ class Dashboard extends Component {
 		this.state = { campaign: 'upcoming', data: data.data, calendarShow: false, requiredData: {}, dialogOpen:false};
 	}
 	handleCampaign = campaignType => {
-        let campaign = campaignType;
         this.props.campaignAction(campaignType);
 	};
     mutateData = () => {
