@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 
 import Row from './row/row';
 import './table.scss';
+import { withTranslation, Trans } from 'react-i18next';
 
 class TableCampaign extends Component {
 	constructor() {
@@ -9,16 +10,33 @@ class TableCampaign extends Component {
 		this.state = {};
 	}
 	render() {
+		const { t } = this.props;
 		// console.log('***************', this.props.data);
 		return (
 			<div className="campaignTable">
 				<table>
 					<thead>
 						<tr>
-							<th>Date</th>
-							<th>Campaign</th>
-							<th>View</th>
-							<th>Actions</th>
+							<th>
+								<Trans>
+									{' '}{t('date')}{' '}
+								</Trans>
+							</th>
+							<th>
+								<Trans>
+									{' '}{t('campaign')}{' '}
+								</Trans>
+							</th>
+							<th>
+								<Trans>
+									{' '}{t('view')}{' '}
+								</Trans>
+							</th>
+							<th>
+								<Trans>
+									{' '}{t('actions')}{' '}
+								</Trans>
+							</th>
 						</tr>
 					</thead>
 					<tbody>
@@ -39,4 +57,4 @@ class TableCampaign extends Component {
 		);
 	}
 }
-export default TableCampaign;
+export default withTranslation('translations')(TableCampaign);

@@ -1,7 +1,8 @@
 import React from 'react';
 import { connect } from 'react-redux';
+import { withTranslation, Trans } from 'react-i18next';
 function Toggle(props) {
-	const { campaign, handleCampaign } = props;
+	const { campaign, handleCampaign, value, t } = props;
 	return (
 		<div className="toggle">
 			<ul>
@@ -10,21 +11,27 @@ function Toggle(props) {
 					onClick={() => {
 						handleCampaign('upcoming');
 					}}>
-					Upcoming Campaigns
+					<Trans>
+						{' '}{t('upcomingCampaign')}{' '}
+					</Trans>
 				</li>
 				<li
 					className={campaign === 'live' ? 'selected' : ''}
 					onClick={() => {
 						handleCampaign('live');
 					}}>
-					Live Campaigns
+					<Trans>
+						{' '}{t('liveCampaign')}{' '}
+					</Trans>
 				</li>
 				<li
 					className={campaign === 'past' ? 'selected' : ''}
 					onClick={() => {
 						handleCampaign('past');
 					}}>
-					Past Campaigns
+					<Trans>
+						{' '}{t('pastCampaign')}{' '}
+					</Trans>
 				</li>
 			</ul>
 			<hr />
@@ -37,4 +44,4 @@ const mapStateToProps = state => ({
 	campaign: state.campaignReducer.isCampaign
 });
 
-export default connect(mapStateToProps)(Toggle);
+export default connect(mapStateToProps)(withTranslation('translations')(Toggle));
