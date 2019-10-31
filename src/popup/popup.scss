@@ -1,0 +1,71 @@
+.popupDiv {
+    width: 30%;
+    margin: auto;
+    background: #fff;
+    padding: 2%;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translate(-50%, 10%);
+
+    .nameContainer {
+        display: flex;
+
+        span {
+            display: grid;
+        }
+
+        h4 {
+            color: #a3a9bc;
+            font-weight: normal;
+            margin-top: 0;
+            margin-bottom: 0;
+            font-size: 16px;
+        }
+
+        h2 {
+            font-size: 16px;
+            color: #2b416c;
+            font-weight: 600;
+            margin-top: 80px;
+            margin-bottom: 0;
+
+        }
+    }
+
+    ul {
+        list-style: none;
+        padding: 0;
+    }
+
+    li {
+        padding: 0;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+
+    .usd {
+        float: right;
+        color: #2b416c;
+        font-weight: 600;
+    }
+
+    h2 {
+        color: #2b416c;
+        font-weight: 600;
+    }
+
+    .duration {
+        color: #7788a3;
+        font-size: 16px;
+    }
+
+    button {
+        margin: auto;
+        padding: 3% 5%;
+        display: block;
+        border: 2px solid #181b34;
+        color: #181b34;
+        font-weight: 700;
+    }
+}

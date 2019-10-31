@@ -1,0 +1,50 @@
+.dashboardParent {
+    .title {
+        color: #2b416c;
+        font-size: 46px;
+        margin: 33px auto;
+    }
+
+    .greyBg {
+        background: rgba(0, 0, 0, 0.8);
+    }
+
+    .toggle {
+        ul {
+            display: flex;
+            list-style-type: none;
+            color: #556789;
+            padding: 0;
+            margin: 0;
+
+            li {
+                width: fit-content;
+                margin-right: 15px;
+                padding: 15px;
+                font-size: 18px;
+                font-weight: 400;
+                cursor: pointer;
+                padding-left: 0;
+            }
+        }
+
+        .selected {
+            color: #83a515;
+            border-bottom: 4px solid #83a515;
+            font-weight: 500;
+            padding-left: 15px;
+        }
+    }
+
+    hr {
+        margin: 0;
+        margin-top: -1px;
+        border: 1px solid #f1f1f4;
+    }
+
+    // img {
+    //     margin-top: 20px;
+    // }
+
+    margin: auto 10%;
+}

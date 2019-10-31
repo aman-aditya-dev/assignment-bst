@@ -1,0 +1,43 @@
+{
+    "data": [{
+            "id": "1",
+            "name": "Need For Speed",
+            "region": "US",
+            "createdOn": 1569868200000,
+            "price": [100, 500, 900],
+            "csv": "Some CSV link for Whatsapp",
+            "report": "Some report link for Whatsapp",
+            "image_url": "nfs.png"
+        },
+        {
+            "id": "2",
+            "name": "PUBG",
+            "region": "CA, FR",
+            "createdOn": 1573151400000,
+            "price": [200, 700, 1100],
+            "csv": "Some CSV link for Super Jewels Quest",
+            "report": "Some report link for Super Jewels Ques",
+            "image_url": "pubg.png"
+        },
+        {
+            "id": "3",
+            "name": "Mole Slayer",
+            "region": "FR",
+            "createdOn": 1559806711124,
+            "price": [300, 800, 1200],
+            "csv": "Some CSV link for Mole Slayer",
+            "report": "Some report link for Mole Slayer",
+            "image_url": "Bitmap.png"
+        },
+        {
+            "id": "4",
+            "name": "Mancala Mix",
+            "region": "JP",
+            "createdOn": 1559806680124,
+            "price": [100, 600, 1000],
+            "csv": "Some CSV link for Mancala Mix",
+            "report": "Some report link for Mancala Mix",
+            "image_url": "Bitmaps.png"
+        }
+    ]
+}

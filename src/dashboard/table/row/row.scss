@@ -1,0 +1,92 @@
+.dateTab {
+    // display: grid;
+    // padding-bottom: 9px;
+
+    span {
+        color: #2e446e;
+    }
+
+    div {
+        display: grid;
+        margin-left: 6%;
+        border-bottom: 1px solid #f1f1f4;
+        padding-bottom: 22px;
+        padding-top: 24px;
+        margin-bottom: -1px;
+        margin-right: -1px;
+    }
+}
+
+.whiteRow {
+    background: white;
+
+
+    td {
+        border-bottom: 1px solid #f1f1f4;
+        margin-left: 15px;
+    }
+
+    td:first-child {
+        margin-left: 15px;
+        border: 0;
+    }
+
+    td:last-child {
+        margin-right: 15px;
+        display: grid;
+        padding-top: 33px;
+        padding-bottom: 30px;
+        margin-left: 0;
+    }
+}
+
+tbody {
+    .bordered {
+        margin-left: 15px !important;
+        border: 1px solid #f1f1f4;
+    }
+}
+
+.campaign {
+    color: #556789;
+
+    .campaignDiv {
+        display: flex;
+    }
+
+    .campaignDetails {
+        display: grid;
+    }
+}
+
+.pricingDiv {
+    display: flex;
+}
+
+.actions {
+    display: flex;
+    position: relative;
+
+    a {
+        margin-right: 5%;
+        cursor: pointer;
+    }
+}
+
+img {
+    margin-right: 3%;
+}
+
+.DayPicker {
+    position: absolute;
+    right: 20px;
+    background: #f7e9e9;
+    top: 30px;
+    color: #171616;
+    z-index: 2;
+    border: 2px solid;
+
+    input {
+        display: none;
+    }
+}
