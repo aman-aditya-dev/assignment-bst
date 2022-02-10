@@ -7,7 +7,7 @@
     "gh-pages": "^2.1.1",
     "i18next": "^19.0.0",
     "i18next-browser-languagedetector": "^4.0.1",
-    "node-sass": "^4.13.0",
+    "node-sass": "^7.0.0",
     "react": "^16.11.0",
     "react-day-picker": "^7.4.0",
     "react-dom": "^16.11.0",
